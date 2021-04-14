@@ -27,5 +27,11 @@ geom_point()
 grid.arrange(p1, p2)
 ```
 
+litttle change
+```{r}
+library(gcookbook) 
+ggplot(pg_mean, aes(x = group, y = weight)) +
+  geom_col()
+```
 
 
